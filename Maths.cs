@@ -12,23 +12,22 @@ namespace Assignment_2._2._2
 
         public static int Add(int num1, int num2)
         {
-            int sum = num1 + num2;
-            return sum;
+            return num1 + num2;
         }
         public static decimal Add(decimal num1, decimal num2, decimal num3)
         {
-            decimal sum = num1 + num2 + num3;
-            return sum;
+           
+            return num1 + num2 + num3;
         }
         public static float Mulptiply(float num1, float num2)
         {
-            float product = num1 * num2;
-            return product;
+            
+            return num1 * num2;
         }
         public static float Multiply (float num1, float num2, float num3)
         {
-            float product = num1 * num2 * num3;
-            return product;
+            
+            return num1 * num2 * num3;
         }
     }
 }
