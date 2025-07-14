@@ -39,8 +39,9 @@ namespace Assignment_2._2._2
                         break;
                     case "4":
                         Console.WriteLine("You chose to multiply three floats.");
-                        break;
                         MultiplyThreeFloat(out float1, out float2, out float3);
+                        break;
+                        
                     case "5":
                         Console.WriteLine("Exiting the program.");
                         continueProgram = false;
